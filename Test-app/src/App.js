@@ -16,15 +16,12 @@ function App() {
   console.log(user);
   const number = 2;
 
-
-  number < 0 ? (console.log('less than zero')) :
-    console.log('Greater than zero')
-
   function handleChange(event) {
     const { name, lastName, email, city } = event.target
     setUser(user => {
       return {
         ...user,
+        [event.target.name]: event.target.value
       }
     })
   }
