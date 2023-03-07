@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>First branch</h1>
+      <h1>Second branch</h1>
       <input type='text'
         name='name'
         onChange={handleChange}
