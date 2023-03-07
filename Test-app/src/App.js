@@ -53,6 +53,12 @@ function App() {
         value={user.city}
         onChange={handleChange}
       />
+      <input type='text'
+        name='city'
+        placeholder='city'
+        value={user.city}
+        onChange={handleChange}
+      />
       <button
       >Sumbit</button>
     </div>
